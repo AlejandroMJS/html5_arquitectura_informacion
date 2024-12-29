@@ -87,7 +87,7 @@
         </p>
       </aside>
       <section>
-        <p></p>
+        <p>
           <mark
             ><strong
               >ESTO ES UNA "SECTION", POSTERIORMENTE COLOCADA DEBAJO DEL MAIN CON CSS, ADEMÁS DE 3 "ARTICLES" DIFERENCIADOS CON COLORES GRACIAS AL ATRIBUTO 'style="color";' EN VEZ DE UTILIZAR UNA stylesheet DE CSS ENLAZADA AL HEAD, LO CUAL IMAGINO QUE SE NOS PEDIRÁ MÁS ADELANTE</strong
@@ -98,6 +98,7 @@
                   </p>
       </section>
     </div>
+    <!--AQUI EMPIEZA EL PIE DE PÁGINA-->
     <footer>
       <section id="contacto">
         <mark
@@ -124,6 +125,30 @@
           <li><a href="https://www.instagram.com/fromsoftware_jp/?hl=en" target="_blank">Instagram</a></li>
         </ul>
       </section>
+      <section id="formulario-contacto">        
+          <h2>Formulario de Contacto</h2>
+        
+          <form action="#" method="post">
+            <!-- Campo de Nombre -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+        
+            <!-- Campo de Correo Electrónico -->
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+        
+            <!-- Campo de Asunto -->
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required placeholder="Asunto del mensaje">
+        
+            <!-- Campo de Mensaje -->
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required placeholder="Escribe tu mensaje aquí..."></textarea>
+        
+            <!-- Botón de Enviar -->
+            <button type="submit">Enviar mensaje</button>
+          </form>
+        </section>
     </footer>
   </body>
 </html>
